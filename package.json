@@ -17,8 +17,12 @@
   },
   "homepage": "https://github.com/McDiffi/todo-simple-app#readme",
   "keywords": [
-   "McDiffi",
-   "simple",
-   "todo-app"
-  ]
+    "McDiffi",
+    "simple",
+    "todo-app"
+  ],
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3"
+  }
 }

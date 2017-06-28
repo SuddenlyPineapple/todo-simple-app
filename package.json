@@ -1,0 +1,24 @@
+{
+  "name": "todo-simple-app",
+  "version": "1.0.0",
+  "description": "Simple app to collect our daily tasks",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/McDiffi/todo-simple-app.git"
+  },
+  "author": "Wojciech Kasperski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/McDiffi/todo-simple-app/issues"
+  },
+  "homepage": "https://github.com/McDiffi/todo-simple-app#readme",
+  "keywords": [
+   "McDiffi",
+   "simple",
+   "todo-app"
+  ]
+}

@@ -5,11 +5,15 @@ $(document).ready(function(){
       var item = $('form input');
       var todo = {item: item.val()};
 
+      //console.log(todo); //WORK TILL THIS MOMENT
+
       $.ajax({
         type: 'POST',
         url: '/todo',
         data: todo,
+        dataType: "json",
         success: function(data){
+          //console.log(data); //here is send null back as 4th object
           //do something with the data via front-end framework
           location.reload();
         }
